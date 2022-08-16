@@ -1,0 +1,27 @@
+#exportPattern("^[[:alpha:]]+")
+
+export(correct_per)         
+export(form_lacv_forward)  
+export(mv_impute)  
+export(pred_eq_backward)  
+export(smooth_per)
+export(form_lacv_backward)  
+export(haarWT)             
+export(pdef)       
+export(pred_eq_forward)   
+export(spec_estimation)
+
+
+import(mvLSW)
+import(wavethresh)
+
+importFrom("binhf", "shift")
+importFrom("zoo", "is.zoo")
+importFrom("xts", "is.xts")
+importFrom("stats", "is.ts")
+importFrom("stats", "as.ts")
+importFrom("stats", "time")
+importFrom("stats", "filter")
+importFrom("imputeTS", "na_interpolation")
+
+importFrom("utils", "getFromNamespace")
